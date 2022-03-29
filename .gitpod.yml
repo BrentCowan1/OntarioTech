@@ -1,0 +1,13 @@
+tasks:
+  - init: |
+      echo 'Building VSG Editor'
+      cd ScenarioEditor
+      yarn install
+    command: |
+      echo 'Starting VSG Editor'
+      yarn serve
+
+vscode:
+  extensions:
+    - christian-kohler.npm-intellisense
+    - octref.vetur
