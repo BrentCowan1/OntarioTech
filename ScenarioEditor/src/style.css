@@ -1,0 +1,106 @@
+body {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.node.--type-Start > .__content {
+  background-color: dodgerblue;
+}
+
+.node.--type-End > .__content {
+  background-color: crimson;
+}
+
+textarea {
+  resize: none;
+}
+
+/* FIX - minimap */
+.minimap {
+  height: 120px;
+  width: 200px;
+  top: 40px;
+}
+
+/* sidebar - general */
+
+.node-editor .input-user-select {
+  user-select: auto;
+  -moz-user-select: auto;
+}
+
+.tiptap-editor, .tiptap-editor * {
+  user-select: auto !important;
+  -moz-user-select: auto !important;
+}
+
+.tiptap-editor p:first-of-type {
+  margin-top: 0px;
+}
+
+.tiptap-editor p:last-of-type {
+  margin-bottom: 0px;
+}
+
+.tiptap-buttons {
+  text-align: center;
+  background-color: #1C1C1C;
+  padding: 6px 0;
+}
+
+.ProseMirror {
+  width: 100%;
+  padding: 0.45em 0.75em;
+  background-color: #2C2C2C;
+  border: none;
+  border-radius: 3px;
+}
+
+.dark-input {
+  caret-color: white;
+}
+
+/* sidebar - additional options */
+.dark-input-nohover {
+  width: 100%;
+  padding: 0.75em;
+  background-color: #1C1C1C;
+  border: none;
+  border-radius: 3px;
+}
+
+#external-docs input {
+  width: 100%;
+  margin-top: 0.2em;
+  margin-bottom: 0.7em;
+}
+
+#external-docs-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#external-docs-list li {
+  margin: 0.5em 0;
+  padding: 0.65em 0.75em;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+#external-docs-list li a {
+  color: deepskyblue;
+  word-wrap: break-word;
+}
+
+#external-docs-list li span {
+  display: inline-block;
+  width: 75%;
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+#external-docs-list li button {
+  float: right;
+}

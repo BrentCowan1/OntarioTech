@@ -1,0 +1,252 @@
+{
+  "nodes": [
+    {
+      "type": "Start",
+      "id": "node_1607994981930118",
+      "name": "Start",
+      "options": [],
+      "state": {},
+      "interfaces": [
+        [
+          "Output",
+          {
+            "id": "ni_1607994981930119",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 218,
+        "y": 355
+      },
+      "width": 200,
+      "twoColumn": false
+    },
+    {
+      "type": "Dialogue with choices",
+      "id": "node_1607994991504120",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Narrator"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "Dialogue text"
+          }
+        ],
+        [
+          "Choices",
+          {}
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1607994991504121",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_1607994991504122",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_1607994991504123",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_1607994991504124",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_1607994991504125",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_1607994991504126",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 487,
+        "y": 354
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "End",
+      "id": "node_1607994998467130",
+      "name": "End",
+      "options": [
+        [
+          "Define reason",
+          {
+            "endReason": "Test: no retry"
+          }
+        ],
+        [
+          "Allow retry",
+          false
+        ],
+        [
+          "Retry position",
+          "From the start"
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1607994998467131",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 1007,
+        "y": 215
+      },
+      "width": 200,
+      "twoColumn": true
+    },
+    {
+      "type": "End",
+      "id": "node_1607995009302136",
+      "name": "End",
+      "options": [
+        [
+          "Define reason",
+          {
+            "endReason": "Test: retry from the start"
+          }
+        ],
+        [
+          "Allow retry",
+          true
+        ],
+        [
+          "Retry position",
+          "From the start"
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1607995009302137",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 1004,
+        "y": 441
+      },
+      "width": 200,
+      "twoColumn": true
+    },
+    {
+      "type": "End",
+      "id": "node_1607995018529138",
+      "name": "End",
+      "options": [
+        [
+          "Define reason",
+          {
+            "endReason": "Test: retry from question"
+          }
+        ],
+        [
+          "Allow retry",
+          true
+        ],
+        [
+          "Retry position",
+          "From previous question"
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni1607995018530140",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 998,
+        "y": 672
+      },
+      "width": 200,
+      "twoColumn": true
+    }
+  ],
+  "connections": [
+    {
+      "id": "1607994995521129",
+      "from": "ni_1607994981930119",
+      "to": "ni_1607994991504121"
+    },
+    {
+      "id": "1607995002046135",
+      "from": "ni_1607994991504122",
+      "to": "ni_1607994998467131"
+    },
+    {
+      "id": "1607995021695143",
+      "from": "ni_1607994991504123",
+      "to": "ni_1607995009302137"
+    },
+    {
+      "id": "1607995024037146",
+      "from": "ni_1607994991504124",
+      "to": "ni1607995018530140"
+    }
+  ],
+  "panning": {
+    "x": 38,
+    "y": -71
+  },
+  "scaling": 1
+}

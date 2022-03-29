@@ -1,0 +1,1176 @@
+{
+  "nodes": [
+    {
+      "type": "Dialogue with choices",
+      "id": "node_159657452351428",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Angry"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Client"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "There is so much graffiti on the walls. I never thought I would end up in jail."
+          }
+        ],
+        [
+          "Choices",
+          {
+            "choice1": "Jamal what would you like to be called?",
+            "choice2": "I don't see any graffiti on the wall, and you are in the hospital. Can you tell me what you would like to be called?  ",
+            "choice3": "Jamal, my name is Oye, and you are in a hospital.",
+            "choice4": "Jamal, that's enough. A few moments ago I told you that there is no graffiti on the walls, and that nobody is going to take you to jail."
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_159657452351429",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_159657452351430",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_159657452351431",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_159657452351532",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_159657452351533",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_159657452351534",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 493.1396201396741,
+        "y": 179.98570968243496
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Dialogue",
+      "id": "node_159657482542116",
+      "name": "Dialogue",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Narrator"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "As Jamal answers, his eyes move in random directions. He is apprehensive to answer the nurses question. But proceeds to say the following:"
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_159657482542117",
+            "value": null
+          }
+        ],
+        [
+          "Output",
+          {
+            "id": "ni_159657482542218",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 1067,
+        "y": 218.64221526192736
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Dialogue",
+      "id": "node_159657483440724",
+      "name": "Dialogue",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Sad"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Narrator"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "Jamal makes a listening posture. He looks away from the nurse and seems as if he is listening to instructions coming from an empty space. He looks over his shoulder then nods his head in agreement while moving his lips. Jamal laughs and and proceeds to answer the nurse's question."
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_159657483440725",
+            "value": null
+          }
+        ],
+        [
+          "Output",
+          {
+            "id": "ni_159657483440726",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 1071,
+        "y": -216
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Start",
+      "id": "node_159657483902631",
+      "name": "Start",
+      "options": [],
+      "state": {},
+      "interfaces": [
+        [
+          "Output",
+          {
+            "id": "ni_159657483902632",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": -357.23965236262904,
+        "y": 181.66031541441555
+      },
+      "width": 200,
+      "twoColumn": false
+    },
+    {
+      "type": "End",
+      "id": "node_159657871542536",
+      "name": "End",
+      "options": [
+        [
+          "Reason",
+          {
+            "endReason": "The nurse should not get bothered by what the patient is saying. Instead, the nurse should explore and assess the patient to understand their reasoning and behaviour."
+          }
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_159657871542537",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 1070,
+        "y": 856
+      },
+      "width": 200,
+      "twoColumn": false
+    },
+    {
+      "type": "End",
+      "id": "node_159658135213871",
+      "name": "End",
+      "options": [
+        [
+          "Reason",
+          {
+            "endReason": "Nurse does not identifies her role."
+          }
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_159658135213972",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 490.2667525945475,
+        "y": 645.1238494188966
+      },
+      "width": 200,
+      "twoColumn": false
+    },
+    {
+      "type": "Dialogue with choices",
+      "id": "node_1596638387492160",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Agitated"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Narrator"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "The nurse notices Jamal is experiencing psychomotor agitation. Jamal rocks back and forth while sitting in bed. He looks worried.  "
+          }
+        ],
+        [
+          "Choices",
+          {
+            "choice1": "Hello Jamal, my name is Oye  Today I am your Nurse. What would you like to be called?",
+            "choice2": "Hello Jamal, my name is Oye. What would you like to be called?"
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596638387492161",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_1596638387492162",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_1596638387492163",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_1596638387492164",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_1596638387492165",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_1596638387492166",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": -6.366260837730241,
+        "y": 179.39791068746317
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Dialogue with choices",
+      "id": "node_1596638502752178",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Happy"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Client"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "Oh humm!! you can call me Jamal, what kind of jail guard doesn’t know the name of their prisoner?"
+          }
+        ],
+        [
+          "Choices",
+          {
+            "choice1": "Jamal, I am a nurse and you are in the Hospital. Do you know why you're here??",
+            "choice2": "Jamal, I am not an officer,  and you are not in jail, you are in a Hospital. Why do you think you are in jail."
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596638502752179",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_1596638502752180",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_1596638502752181",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_1596638502752182",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_1596638502752183",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_1596638502752184",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 1522.11845178582,
+        "y": -286.4895694047804
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "End",
+      "id": "node_1596638544928189",
+      "name": "End",
+      "options": [
+        [
+          "Reason",
+          {
+            "endReason": "Failure to reassure to the patient nursing role. Also, asking why questions should be avoided this may prevent the patient from feeling as though he needs to defend his choices or actions."
+          }
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596638544928190",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 2009.3646702204026,
+        "y": -151.66253361877298
+      },
+      "width": 200,
+      "twoColumn": false
+    },
+    {
+      "type": "Dialogue",
+      "id": "node_1596638607128198",
+      "name": "Dialogue",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Narrator"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "Um, no. I was speaking to the holy spirit and my friend decided we should go out.\n\n"
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596638607128199",
+            "value": null
+          }
+        ],
+        [
+          "Output",
+          {
+            "id": "ni_1596638607128200",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 2005.3599067812142,
+        "y": -454.6896338506909
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Dialogue with choices",
+      "id": "node_1596640657106235",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Client"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "That's none of your concern, people often call me the crazy one. These voices are driving me crazy! Please help me!"
+          }
+        ],
+        [
+          "Choices",
+          {
+            "choice1": "I know it's hard. With time, your voices will lessen. This whole experience will pass like a bad dream."
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596640657106236",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_1596640657106237",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_1596640657106238",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_1596640657107239",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_1596640657107240",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_1596640657107241",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 1528.0625948607412,
+        "y": 227.56764639192252
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Dialogue with choices",
+      "id": "node_1596640775464254",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Client"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "YOU ARE LYING TO ME! The voices are giving me a headache. I would rather go deaf then listen to these voices every day."
+          }
+        ],
+        [
+          "Choices",
+          {
+            "choice1": "Jamal, I am a nurse and you are in the emergency department at the Hospital. Do you know why you're here?",
+            "choice2": "Try to focus on something else, this will help you avoid the voices. But I can assure you that you are in the hospital.",
+            "choice3": "Ok Jamal, if what you are saying is true, can you tell me what the voices are telling you?"
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596640775464255",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_1596640775464256",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_1596640775464257",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_1596640775464258",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_1596640775464259",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_1596640775464260",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 1517.0738921865718,
+        "y": 755.5408156143527
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "End",
+      "id": "node_1596640847096264",
+      "name": "End",
+      "options": [
+        [
+          "Reason",
+          {
+            "endReason": "The nurse provides false reassurance and does not communicate therapeutically."
+          }
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596640847096265",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 2028.574084681919,
+        "y": 206.17437481091616
+      },
+      "width": 200,
+      "twoColumn": false
+    },
+    {
+      "type": "Dialogue",
+      "id": "node_1596640931398269",
+      "name": "Dialogue",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Narrator"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "Dialogue text"
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596640931398270",
+            "value": null
+          }
+        ],
+        [
+          "Output",
+          {
+            "id": "ni_1596640931399271",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 2119.5627521538067,
+        "y": 780.4306605993364
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Dialogue with choices",
+      "id": "node_1596640937271275",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Client"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "Um, no. I was speaking to the holy spirit and my friend decided we should go out... but then he dropped me at the door and left me with strangers."
+          }
+        ],
+        [
+          "Choices",
+          {
+            "choice1": "I talked to your friend and he was concerned about you, he brought you here so you can get help."
+          }
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596640937271276",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_1596640937271277",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_1596640937271278",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_1596640937271279",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_1596640937271280",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_1596640937271281",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 2513.0227327648618,
+        "y": 785.1238853063437
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Dialogue with choices",
+      "id": "node_1596641009717285",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Client"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "Am I in the hospital? I am not crazy, everyone thinks I'm crazy I just want these voices to stop bothering me."
+          }
+        ],
+        [
+          "Choices",
+          {}
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596641009717286",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_1596641009718287",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_1596641009718288",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_1596641009718289",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_1596641009718290",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_1596641009718291",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 2522.117115295208,
+        "y": 1263.2322132537129
+      },
+      "width": 300,
+      "twoColumn": true
+    },
+    {
+      "type": "Dialogue with choices",
+      "id": "node_1596641038740295",
+      "name": "Dialogue with choices",
+      "options": [
+        [
+          "EmotionLabel",
+          "Client emotion:"
+        ],
+        [
+          "Emotion",
+          "Neutral"
+        ],
+        [
+          "CharacterLabel",
+          "Character:"
+        ],
+        [
+          "Character",
+          "Client"
+        ],
+        [
+          "Dialogue",
+          {
+            "dialogueText": "Why do you care? It is none of your business, I am going to keep this to myself. I don't like talking to strangers, I don't even know your name"
+          }
+        ],
+        [
+          "Choices",
+          {}
+        ],
+        [
+          "Play audio",
+          null
+        ]
+      ],
+      "state": {},
+      "interfaces": [
+        [
+          "Input",
+          {
+            "id": "ni_1596641038740296",
+            "value": null
+          }
+        ],
+        [
+          "Choice 1",
+          {
+            "id": "ni_1596641038740297",
+            "value": null
+          }
+        ],
+        [
+          "Choice 2",
+          {
+            "id": "ni_1596641038740298",
+            "value": null
+          }
+        ],
+        [
+          "Choice 3",
+          {
+            "id": "ni_1596641038740299",
+            "value": null
+          }
+        ],
+        [
+          "Choice 4",
+          {
+            "id": "ni_1596641038740300",
+            "value": null
+          }
+        ],
+        [
+          "Choice 5",
+          {
+            "id": "ni_1596641038740301",
+            "value": null
+          }
+        ]
+      ],
+      "position": {
+        "x": 2538.4399439804515,
+        "y": 1750.868909456923
+      },
+      "width": 300,
+      "twoColumn": true
+    }
+  ],
+  "connections": [
+    {
+      "id": "1601582994936299",
+      "from": "ni_159657452351431",
+      "to": "ni_159657482542117"
+    },
+    {
+      "id": "1601582994936301",
+      "from": "ni_159657452351430",
+      "to": "ni_159657483440725"
+    },
+    {
+      "id": "1601582994936303",
+      "from": "ni_159657452351533",
+      "to": "ni_159657871542537"
+    },
+    {
+      "id": "1601582994937305",
+      "from": "ni_1596638387492163",
+      "to": "ni_159658135213972"
+    },
+    {
+      "id": "1601582994937307",
+      "from": "ni_159657483440726",
+      "to": "ni_1596638502752179"
+    },
+    {
+      "id": "1601582994937309",
+      "from": "ni_1596638502752181",
+      "to": "ni_1596638544928190"
+    },
+    {
+      "id": "1601582994937311",
+      "from": "ni_1596638502752180",
+      "to": "ni_1596638607128199"
+    },
+    {
+      "id": "1601582994937313",
+      "from": "ni_159657483902632",
+      "to": "ni_1596638387492161"
+    },
+    {
+      "id": "1601582994937315",
+      "from": "ni_1596638387492162",
+      "to": "ni_159657452351429"
+    },
+    {
+      "id": "1601582994937317",
+      "from": "ni_159657482542218",
+      "to": "ni_1596640657106236"
+    },
+    {
+      "id": "1601582994937319",
+      "from": "ni_159657452351532",
+      "to": "ni_1596640775464255"
+    },
+    {
+      "id": "1601582994937321",
+      "from": "ni_1596640657106237",
+      "to": "ni_1596640847096265"
+    },
+    {
+      "id": "1601582994937323",
+      "from": "ni_1596640775464256",
+      "to": "ni_1596640931398270"
+    },
+    {
+      "id": "1601582994937325",
+      "from": "ni_1596640931399271",
+      "to": "ni_1596640937271276"
+    },
+    {
+      "id": "1601582994937327",
+      "from": "ni_1596640775464257",
+      "to": "ni_1596641009717286"
+    },
+    {
+      "id": "1601582994937329",
+      "from": "ni_1596640775464258",
+      "to": "ni_1596641038740296"
+    }
+  ],
+  "panning": {
+    "x": 208.83030571376355,
+    "y": 293.02512636955026
+  },
+  "scaling": 1
+}
