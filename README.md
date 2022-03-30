@@ -10,3 +10,8 @@ These instructions are for Ubuntu 20.04.
 - Install dependencies: `yarn install`
 - To run locally in development mode: `yarn serve`
 - To build it for deployment: `yarn build`
+
+
+---
+
+Based on [github.com/andreibosco/VSG](github.com/andreibosco/VSG) (currently set as private repository).
