@@ -5,6 +5,7 @@ tasks:
       yarn install
     command: |
       echo 'Starting VSG Editor'
+      cd ScenarioEditor
       yarn serve
 
 vscode:
