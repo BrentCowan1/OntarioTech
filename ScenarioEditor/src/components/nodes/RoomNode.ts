@@ -60,7 +60,7 @@ export default class Room extends Node {
     this.addOption(
       "RoomCharacterslabel",
       "TextOption",
-      "Which characters should be visible?"
+      "myTest Which characters should be visible?"
     );
     this.addOption("EnableCharacterA", "CharactersOption", false);
     this.addOption("EnableCharacterB", "CharactersOption", false);
