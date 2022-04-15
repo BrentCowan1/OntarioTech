@@ -34,6 +34,14 @@ export default class Room extends Node {
         value: "./img/nursing_station.png",
       },
       {
+        text: "Office 1",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
+        text: "Office 2",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
         text: "Client bedroom",
         value: "./img/client_bedroom.png",
       },
@@ -45,6 +53,8 @@ export default class Room extends Node {
     const roomItems = [
       "Nursing station",
       "Research Lab",
+      "Office 1",
+      "Office 2",
       "Client bedroom",
       "Client bedroom - sofa",
     ];
