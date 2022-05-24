@@ -38,6 +38,10 @@ export default class Room extends Node {
         value: "./img/client_bedroom_sofa.png",
       },
       {
+        text: "Office 1a",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
         text: "Office 2",
         value: "./img/client_bedroom_sofa.png",
       },
@@ -54,6 +58,7 @@ export default class Room extends Node {
       "Nursing station",
       "Research Lab",
       "Office 1",
+      "Office 1a",
       "Office 2",
       "Client bedroom",
       "Client bedroom - sofa",

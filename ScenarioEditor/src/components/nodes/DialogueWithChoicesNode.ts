@@ -54,6 +54,7 @@ export default class DialogueWithChoices extends Node {
         "Agitated",
         "Angry",
         "Happy",
+        "Phone",
         "Talking",
         "Sad",
         "VerySad",
