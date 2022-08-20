@@ -14,6 +14,9 @@ const getDefaultState = () => {
       characterC: "Character C",
     },
     unityLoaded: false,
+    showIfDecisionWasCorrect: false,
+    useTTS: false,
+    allowIncorrectDecision: false,
   };
 };
 
@@ -37,6 +40,15 @@ export default new Vuex.Store({
     },
     updateUnityLoaded(state, payload) {
       state.unityLoaded = payload;
+    },
+    updateShowIfDecisionWasCorrect(state, payload) {
+      state.showIfDecisionWasCorrect = payload;
+    },
+    updateUseTTS(state, payload) {
+      state.useTTS = payload;
+    },
+    updateAllowIncorrectDecision(state, payload) {
+      state.allowIncorrectDecision = payload;
     },
     RESET_STATE(state) {
       Object.assign(state, getDefaultState());
