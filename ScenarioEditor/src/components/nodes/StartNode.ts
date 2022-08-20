@@ -60,6 +60,16 @@ export default class Start extends Node {
       },
       "SidebarSceneDataAdditionalOption"
     );
+    this.addOption(
+      "Settings",
+      "ButtonOption",
+      {
+        showDecisionResultType: store.state.showIfDecisionWasCorrect,
+        allowIncorrectDecision: store.state.allowIncorrectDecision,
+        useTTS: store.state.useTTS,
+      },
+      "SidebarSceneSettings"
+    );
     this.addOutputInterface("Output", { type: "flow" });
   }
 
