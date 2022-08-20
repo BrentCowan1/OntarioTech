@@ -4,12 +4,16 @@ body {
 }
 
 .node.--type-Start > .__content {
-  background-color: dodgerblue;
+  background-color: #004d97;
 }
 
 .node.--type-End > .__content {
-  background-color: crimson;
+  background-color: #ac172d;
 }
+
+/* .node {
+  background-color: #a8a8a882;
+} */
 
 textarea {
   resize: none;
@@ -20,6 +24,12 @@ textarea {
   height: 120px;
   width: 200px;
   top: 40px;
+}
+
+/* FIX - checkbox */
+.dark-checkbox .__checkmark-container {
+  max-width: 1.5em;
+  max-height: 1.5em;
 }
 
 /* sidebar - general */
@@ -56,11 +66,15 @@ textarea {
   border-radius: 3px;
 }
 
+.dark-button, .dark-input, .dark-select, .dark-checkbox .__checkmark-container {
+  border: 1px solid #717171;
+}
+
 .dark-input {
   caret-color: white;
 }
 
-/* sidebar - additional options */
+/* sidebar - additional options and settings*/
 .dark-input-nohover {
   width: 100%;
   padding: 0.75em;
@@ -81,7 +95,7 @@ textarea {
   list-style: none;
 }
 
-#external-docs-list li {
+#external-docs-list li, .settings-item {
   margin: 0.5em 0;
   padding: 0.65em 0.75em;
   border: none;
