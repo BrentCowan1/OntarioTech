@@ -923,41 +923,41 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@baklavajs/core@1.9.1", "@baklavajs/core@^1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@baklavajs/core/-/core-1.9.1.tgz#3fbef053648bcddf170841b76f0c84d9b6a9bed6"
-  integrity sha512-Okwr++uH341SO8DR+WnstAemEDJ32VgcC5aW80RUFfkM4/iABJ8RHcEbgEj1/qi4d8bEvRT3u7KUhX7mgBIoFA==
+"@baklavajs/core@^1.10.1":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@baklavajs/core/-/core-1.10.1.tgz#38cb6256c73fab997ce77ddac478796bb06eb204"
+  integrity sha512-6jzfhMxDkffNHlgFg7d479MTE6NHSCTkN30gFvbuGtT/o+lYGuhTHrvb0c66tR7b+5YxnVNp951gyNx4J0bthQ==
   dependencies:
-    "@baklavajs/events" "^1.8.2"
+    "@baklavajs/events" "^1.10.0"
 
-"@baklavajs/events@^1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@baklavajs/events/-/events-1.8.2.tgz#2911d0fb3f0bd8f32e977352b2eaa017261e8b45"
-  integrity sha512-ufXVIRy0Qmp8Xs43c+pViHbEQPupqPXxYRYMgSEErXOiN49PGeYtEzbMWe3JJ7L8cFd074J2Zqo52VYwEiv5Tw==
+"@baklavajs/events@^1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@baklavajs/events/-/events-1.10.0.tgz#25f6e01aada501c83f45efa520e0a18d08b48e7b"
+  integrity sha512-0An8vThUMnOOdsjg2Z0sxZWIgCBX1lP+Kl18u04AamEGb6JgjaqE+KbVQojplkOvOmRFbd5DLCUE0taV3eldRw==
 
-"@baklavajs/plugin-engine@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@baklavajs/plugin-engine/-/plugin-engine-1.9.2.tgz#f93a451a335484666906eb4270151aef7b2d7ebc"
-  integrity sha512-EmavXQUPlp2lyMaNBkyG7s7LVInK8KYdbOcVreIEA1RnHzG8cHWdCArFfYteZSo1ijbnj5HC8QRYVmk3W2k8Qw==
+"@baklavajs/plugin-engine@^1.10.1":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@baklavajs/plugin-engine/-/plugin-engine-1.10.1.tgz#3186e1d88c2ee6080cc5553a7916f30b364f5002"
+  integrity sha512-0bRwqbEuDQVzvc8lDPhvM8Du5jJyb+MBreMuwpp/TwVnmghqBiMuOJVhGpr4TJzqgAhs+ziPzp9VF1R6IWZKHg==
   dependencies:
-    "@baklavajs/events" "^1.8.2"
+    "@baklavajs/events" "^1.10.0"
 
-"@baklavajs/plugin-interface-types@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@baklavajs/plugin-interface-types/-/plugin-interface-types-1.9.2.tgz#659b3878ef86f952f7657dfb17648df31fd3d915"
-  integrity sha512-6TcDDM92VKUdRTcoDBKg1JeKIQrNximK8vn9mDCSkH6/LelUAI4UWwndnedq+Rml7rakpbdgRUbzcJ6wgBLUJw==
+"@baklavajs/plugin-interface-types@^1.10.1":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@baklavajs/plugin-interface-types/-/plugin-interface-types-1.10.1.tgz#6fa3f7aa298217ed0fb4e206e20197e89db6c613"
+  integrity sha512-Y3iS2cNrYz+HyVNvpLtB+rBi/2FsNFXoTK+gHeXASkLMsAncuz/Slyyl/N2oFiGnE0bZ1n1S7GvMhCG7NqFSmg==
 
-"@baklavajs/plugin-options-vue@1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@baklavajs/plugin-options-vue/-/plugin-options-vue-1.9.1.tgz#3801bffab4761f545ec214f7c836a0918ccdbc77"
-  integrity sha512-GOsjw9J5GXnPLzODIGqhwQ0gnTagf7zuyabpxfHd54r5B3mR8o4+6jZQmUStXK/dPxrmV1/t/wR4yhHo5DpykA==
+"@baklavajs/plugin-options-vue@^1.10.1":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@baklavajs/plugin-options-vue/-/plugin-options-vue-1.10.1.tgz#5b60fd9f573cf6cedcfa79db93c9c34236fd99c0"
+  integrity sha512-1JBE0hZqzHm2ShYRIpxo09p7dFZ7nAcbc9Aw9lDLP2Kl3mE/x9ctumrbEpGyCsAsVTRfM45Poo02f/MwZxLPLg==
 
-"@baklavajs/plugin-renderer-vue@1.9.0", "@baklavajs/plugin-renderer-vue@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@baklavajs/plugin-renderer-vue/-/plugin-renderer-vue-1.9.0.tgz#20a9e093776c2cedf364903fe3af71bcf4111627"
-  integrity sha512-INVn6jTwuvXeodbk0ehg4oa08PoIhqRfyVBbbfFzX1qyt4LHfj/UCqALG0O41YBQkd/jWWzRTmDqQbAK3lT17w==
+"@baklavajs/plugin-renderer-vue@^1.10.1":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@baklavajs/plugin-renderer-vue/-/plugin-renderer-vue-1.10.1.tgz#c1979a21a1c1af7cfa4f149146351d1a67ccadf9"
+  integrity sha512-7e15nrz6IiSDMKm8PV7ozcNO67VPEE8KVkJGbhLJEFxd+ao2aYAgwHcvZsEg63AmLwU6Rk1yNNpbAN8nFkyoZw==
   dependencies:
-    "@baklavajs/events" "^1.8.2"
+    "@baklavajs/events" "^1.10.0"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -2322,16 +2322,16 @@ babel-plugin-polyfill-regenerator@^0.3.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.0"
 
-baklavajs@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/baklavajs/-/baklavajs-1.9.2.tgz#7d2d4bad07646b9e928956f1d3c430052c50e119"
-  integrity sha512-gro/fm/YUbuG/z5bcsEPLllu1tRsEyDloTpLw0ehj0ymT/itA/yYmH+3F3nbQquEiLvwKylcxirvuoXnyIgjtQ==
+baklavajs@^1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/baklavajs/-/baklavajs-1.10.1.tgz#8541b37f989044559987e104c239589d78616f18"
+  integrity sha512-c6U2+5Jdv8/hXI1deTKXnxpNSOBCZ08P9CLXXnNKdLsqOuQDX0hCCPinnNQe5Kbby+DMFDofqSc9tEVOOwW6tg==
   dependencies:
-    "@baklavajs/core" "1.9.1"
-    "@baklavajs/plugin-engine" "^1.9.2"
-    "@baklavajs/plugin-interface-types" "^1.9.2"
-    "@baklavajs/plugin-options-vue" "1.9.1"
-    "@baklavajs/plugin-renderer-vue" "1.9.0"
+    "@baklavajs/core" "^1.10.1"
+    "@baklavajs/plugin-engine" "^1.10.1"
+    "@baklavajs/plugin-interface-types" "^1.10.1"
+    "@baklavajs/plugin-options-vue" "^1.10.1"
+    "@baklavajs/plugin-renderer-vue" "^1.10.1"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -3153,10 +3153,10 @@ core-js-compat@^3.18.0, core-js-compat@^3.19.1, core-js-compat@^3.6.5:
     browserslist "^4.19.1"
     semver "7.0.0"
 
-core-js@^3.14.0:
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.0.tgz#f479dbfc3dffb035a0827602dd056839a774aa71"
-  integrity sha512-YUdI3fFu4TF/2WykQ2xzSiTQdldLB4KVuL9WeAy5XONZYt5Cun/fpQvctoKbCgvPhmzADeesTk/j2Rdx77AcKQ==
+core-js@^3.24.1:
+  version "3.24.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.24.1.tgz#cf7724d41724154010a6576b7b57d94c5d66e64f"
+  integrity sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==
 
 core-js@^3.6.5:
   version "3.20.2"
