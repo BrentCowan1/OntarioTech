@@ -52,6 +52,7 @@ import SidebarEndOption from "./sidebars/SidebarEnd.vue";
 import SidebarSceneDataOption from "./sidebars/SidebarSceneData.vue";
 import SidebarSceneDataAdditionalOption from "./sidebars/SidebarSceneDataAdditional.vue";
 import SidebarCharacterNames from "./sidebars/SidebarCharacterNames.vue";
+import SidebarSceneSettings from "./sidebars/SidebarSceneSettings.vue";
 // import DialogueWithChoicesNodeClass from "./nodes/DialogueWithChoicesNodeClass";
 // import ChoiceNode from "./nodes/ChoiceNode";
 // import ExampleNode from "./nodes/ExampleNode";
@@ -203,6 +204,10 @@ export default {
     this.viewPlugin.registerOption(
       "SidebarCharacterNames",
       SidebarCharacterNames
+    );
+    this.viewPlugin.registerOption(
+      "SidebarSceneSettings",
+      SidebarSceneSettings
     );
 
     // options
