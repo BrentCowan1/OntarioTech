@@ -57,6 +57,8 @@ export default class Dialogue extends Node {
         "Afraid",
         "Agitated",
         "Angry",
+        "ArmsCrossing",
+        "QuestionOneArm",
         "Happy",
         "Phone",
         "Talking",
