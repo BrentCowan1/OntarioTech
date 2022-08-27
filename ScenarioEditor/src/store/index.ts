@@ -15,8 +15,8 @@ const getDefaultState = () => {
     },
     unityLoaded: false,
     showIfDecisionWasCorrect: false,
-    useTTS: false,
     allowIncorrectDecision: false,
+    useTTS: false,
   };
 };
 
@@ -44,11 +44,11 @@ export default new Vuex.Store({
     updateShowIfDecisionWasCorrect(state, payload) {
       state.showIfDecisionWasCorrect = payload;
     },
-    updateUseTTS(state, payload) {
-      state.useTTS = payload;
-    },
     updateAllowIncorrectDecision(state, payload) {
       state.allowIncorrectDecision = payload;
+    },
+    updateUseTTS(state, payload) {
+      state.useTTS = payload;
     },
     RESET_STATE(state) {
       Object.assign(state, getDefaultState());
