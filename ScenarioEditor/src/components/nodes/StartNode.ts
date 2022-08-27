@@ -17,6 +17,15 @@ export default class Start extends Node {
     return names;
   }
 
+  public updateSettings() {
+    const settings = {
+      showIfDecisionWasCorrect: store.state.showIfDecisionWasCorrect,
+      useTTS: store.state.useTTS,
+      allowIncorrectDecision: store.state.allowIncorrectDecision,
+    };
+    return settings;
+  }
+
   public constructor() {
     super();
     this.addOption("SceneNameLabel", "TextOption", "Scene name:");
