@@ -1,13 +1,14 @@
 {
   "name": "vsg-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "Scenario editor for the Virtual Serious Game player.",
   "author": "Andrei Bosco Bezerra Torres",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "production": "vue-cli-service serve --mode production -s dist"
   },
   "dependencies": {
     "@tiptap/starter-kit": "^2.0.0-beta.168",
