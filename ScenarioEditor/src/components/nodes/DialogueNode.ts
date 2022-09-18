@@ -8,6 +8,17 @@ export default class Dialogue extends Node {
   public twoColumn = true;
   public width = 300;
 
+  public addEmotionNotAvailable() {
+    return this.addOption(
+      "EmotionNotAvailable",
+      "WarningTextOption",
+      "Emotion is disabled for the 'Narrator' character."
+    );
+  }
+  public removeEmotionNotAvailable() {
+    return this.removeOption("EmotionNotAvailable");
+  }
+
   public updateCharactersList() {
     const names = [
       {
@@ -43,28 +54,38 @@ export default class Dialogue extends Node {
     this.addInputInterface("Input", undefined, null, { type: "flow" });
     this.addOutputInterface("Output", { type: "flow" });
     this.addOption("CharacterLabel", "TextOption", "Character:");
-    this.addOption(
+    const characterSelect = this.addOption(
       "Character",
       "SelectOption",
       initialNames[0].value,
       undefined,
       { items: this.updateCharactersList() }
     );
-    this.addOption("EmotionLabel", "TextOption", "Client emotion:");
+    this.addOption("EmotionLabel", "TextOption", "Emotion:");
     this.addOption("Emotion", "SelectOption", "Neutral", undefined, {
       items: [
         "Neutral",
-        "Afraid",
+        "Agreeing",
         "Agitated",
         "Angry",
         "ArmsCrossing",
-        "QuestionOneArm",
-        "Happy",
-        "Phone",
-        "Talking",
-        "Sad",
-        "VerySad",
+        "Defeat",
+        "Afraid",
         "Yelling",
+        "YellingOut",
+        "Happy",
+        "HappyHandGesture",
+        "HardHeadNod",
+        "LengthyHeadNod",
+        "CockyHeadTurn",
+        "LookingAround",
+        "VerySad",
+        "Sad",
+        "ThoughtfulHeadShake",
+        "Pouting",
+        "QuestionOneArm",
+        "QuestionTwoArms",
+        "Talking",
       ],
     });
     this.addOption(
@@ -75,6 +96,14 @@ export default class Dialogue extends Node {
     );
     this.addOption("Play audio", "CheckboxOption");
     this.addOption("Audio URL", "InputOption");
+    this.addEmotionNotAvailable();
+    characterSelect?.events.setValue.addListener(this, (newValue) => {
+      if (newValue == "Narrator") {
+        this.addEmotionNotAvailable();
+      } else {
+        this.removeEmotionNotAvailable();
+      }
+    });
   }
 
   public load(state: INodeState) {

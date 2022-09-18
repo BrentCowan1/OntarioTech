@@ -10,8 +10,8 @@ export default class Room extends Node {
   public addClientNotAvailable() {
     return this.addOption(
       "ClientNotAvailable",
-      "TextOption",
-      "(The client character will not be visible for this room.)"
+      "WarningTextOption",
+      "The client character will not be visible in this room."
     );
   }
   public removeClientNotAvailable() {
@@ -30,26 +30,6 @@ export default class Room extends Node {
         value: "./img/nursing_station.png",
       },
       {
-        text: "Research Lab",
-        value: "./img/nursing_station.png",
-      },
-      {
-        text: "Office 1",
-        value: "./img/client_bedroom_sofa.png",
-      },
-      {
-        text: "Office 1b",
-        value: "./img/client_bedroom_sofa.png",
-      },
-      {
-        text: "Office 1r",
-        value: "./img/client_bedroom_sofa.png",
-      },
-      {
-        text: "Office 2",
-        value: "./img/client_bedroom_sofa.png",
-      },
-      {
         text: "Client bedroom",
         value: "./img/client_bedroom.png",
       },
@@ -60,11 +40,6 @@ export default class Room extends Node {
     ];
     const roomItems = [
       "Nursing station",
-      "Research Lab",
-      "Office 1",
-      "Office 1b",
-      "Office 1r",
-      "Office 2",
       "Client bedroom",
       "Client bedroom - sofa",
     ];
