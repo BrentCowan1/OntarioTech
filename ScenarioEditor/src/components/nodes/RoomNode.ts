@@ -37,6 +37,30 @@ export default class Room extends Node {
         text: "Client bedroom - sofa",
         value: "./img/client_bedroom_sofa.png",
       },
+      {
+        text: "Kitchen",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
+        text: "Clinic1",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
+        text: "Clinic2",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
+        text: "Clinic3",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
+        text: "Clinic4",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
+        text: "Clinic5",
+        value: "./img/client_bedroom_sofa.png",
+      },
     ];
     const roomItems = [
       "Nursing station",
