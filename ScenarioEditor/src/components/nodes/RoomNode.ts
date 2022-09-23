@@ -67,11 +67,11 @@ export default class Room extends Node {
       "Client bedroom",
       "Client bedroom - sofa",
       "Kitchen",
-      "Clinic1".
-      "Clinic2".
-      "Clinic3".
-      "Clinic4".
-      "Clinic5".
+      "Clinic1",
+      "Clinic2",
+      "Clinic3",
+      "Clinic4",
+      "Clinic5",
     ];
     const roomSelect = this.addOption(
       "RoomSelect",
