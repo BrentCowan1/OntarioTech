@@ -86,7 +86,7 @@ export default class Dialogue extends Node {
         "QuestionOneArm",
         "QuestionTwoArms",
         "Talking",
-        "Whispering",
+        "TellingASecret",
       ],
     });
     this.addOption(
