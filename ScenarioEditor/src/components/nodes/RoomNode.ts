@@ -61,6 +61,18 @@ export default class Room extends Node {
         text: "Clinic5",
         value: "./img/client_bedroom_sofa.png",
       },
+      {
+        text: "Office",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
+        text: "Office_F",
+        value: "./img/client_bedroom_sofa.png",
+      },
+      {
+        text: "Office_E",
+        value: "./img/client_bedroom_sofa.png",
+      },
     ];
     const roomItems = [
       "Nursing station",
@@ -72,6 +84,9 @@ export default class Room extends Node {
       "Clinic3",
       "Clinic4",
       "Clinic5",
+      "Office",
+      "Office_F",
+      "Office_E",
     ];
     const roomSelect = this.addOption(
       "RoomSelect",
